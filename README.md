@@ -37,7 +37,7 @@ checkuot=<new_version>
 ```
 
 ```
-wget https://raw.githubusercontent.com/MaxMavaIll/near_guide/main/near_install_node.sh && chmod +x near_install_node.sh && bash near_install_node.sh
+wget https://raw.githubusercontent.com/azbookin/NEAR/main/near_install_node.sh && chmod +x near_install_node.sh && bash near_install_node.sh
   
 ```
 Update cli (эта команда может значиться позже)
@@ -320,7 +320,7 @@ near view <staking_pool_id> get_account_unstaked_balance '{"account_id": "<accou
 # Создаем пинг
 Устанавливаем такой скрипт
 ```
-wget -P ~/ https://raw.githubusercontent.com/MaxMavaIll/near_guide/main/ping.sh && chmod +x ~/ping.sh 
+wget -P ~/ https://raw.githubusercontent.com/azbookin/NEAR/main/ping.sh && chmod +x ~/ping.sh 
 mkdir -p $HOME/logs
 
 ```
